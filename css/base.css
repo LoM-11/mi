@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei;
+    color: #FFF;
+    min-width: 1226px;
+    background-color: #F5F5F5;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* 设置一个类，用来表示中间容器的宽度 */
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
